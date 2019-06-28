@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+	</head>
+    
+	<body>
+        <script src="scripts/main.js"></script> 
+        <embed name="OceanMan" src="OceanMan.mp3" loop="true" hidden="true" autostart="true">
+      
+        
+		<h1>Welcome back SpaceSurfer</h1>
+        
+        <h2>Pick your Surf Spot (click on one to reveal current conditions)</h2>
+
+       
+        <div id="overlayA" onclick="offA()">
+            <h3>Current Temperature in Scheveningen, NL: </h3> 
+            <div id='tempA'></div>
+            <div id='uvA'></div>
+            <div id='uvMaxA'></div>
+        </div>
+        <div id="overlayA"> </div>
+        
+        
+        <div id="overlayB" onclick="offB()">
+            <h3>Current Temperature in Medewi, ID: </h3>
+            <div id='tempB'></div>
+            <div id='uvB'></div>
+            <div id='uvMaxB'></div>
+        </div>
+        <div id="overlayB"> </div>
+        
+        
+        <div id="overlayC" onclick="offC()">
+            <h3>Current Temperature in Honolulu, US: </h3>
+            <div id='tempC'></div>
+            <div id='uvC'></div>
+            <div id='uvMaxC'></div>
+        </div>
+        <div id="overlayC"> </div>
+        
+        
+        <div id="overlayD" onclick="offD()">
+            <h3>Current Temperature in Bells Beach, AU: </h3>
+            <div id='tempD'></div>
+            <div id='uvD'></div>
+            <div id='uvMaxD'></div>
+        </div>
+        <div id="overlayD"> </div>
+        
+        
+        <div id="overlayE" onclick="offE()">
+            <h3>Current Temperature in Watergate Bay, UK: </h3>
+            <div id='tempE'></div>
+            <div id='uvE'></div>
+            <div id='uvMaxE'></div>
+        </div>
+        <div id="overlayE"> </div>
+        
+        
+        <div id="overlayF" onclick="offF()">
+            <h3>Current Temperature in Teahupoo, PF: </h3>
+            <div id='tempF'></div>
+            <div id='uvF'></div>
+            <div id='uvMaxF'></div>
+        </div>
+        <div id="overlayF"> </div>
+        
+        
+        
+        
+     <div class="wrapper">
+         
+        <div class="box a">
+                <p>Schevingen, NL </p>
+
+                <img src="images/Scheveningen-Pier.jpg" onclick="onA()">
+         </div>
+    
+         <div class="box b">
+                <p>Medewi, ID</p>
+    
+                <img src="images/medewi.jpg" onclick="onB()">  
+         </div>
+    
+        <div class="box c">
+                <p>Honolulu, US </p>
+    
+                <img src="images/Honolulu.jpg" onclick="onC()">
+        </div>
+    
+        <div class="box d">
+                <p>Bells Beach, AU </p>
+    
+                <img src="images/BellsBeach.jpg" onclick="onD()">
+        </div>
+    
+        <div class="box e">
+                <p>Watergate Bay, UK </p>
+    
+                <img src="images/WatergateBeach.jpg" onclick="onE()">
+        </div>
+    
+        <div class="box f">
+                <p>Teahupoo, PF </p>
+    
+                <img src="images/Teahupoo.jpg" onclick="onF()">
+        </div>
+    </div>
+
+		
+	</body>
+</html>
